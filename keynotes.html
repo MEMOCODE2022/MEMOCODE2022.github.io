@@ -721,46 +721,55 @@
             </div>
         </div>
 
-        <!--        <div id="content" style="font-size: 13pt; text-align: justify;">-->
-        <!--            <h1>Keynote Speakers</h1>-->
-        <!--            <br>-->
+               <div id="content" style="font-size: 13pt; text-align: justify;">
+                  <h1>Keynote Speakers</h1>
+                    <br>
         <!--            <span class="left"><img src="images/lee.jpg"/></span>-->
-        <!--            <p>-->
-        <!--                <b><span style="color:teal">Clark Barrett, Stanford University</span><br><span-->
-        <!--                        style="color:darkred">Title: Domain-Specific Reasoning with Satisfiability Modulo Theories <br>(<a-->
-        <!--                        href="https://lcs.ios.ac.cn/fm2021/invited-speakers/#Clark" style="color: blue;">joint with FM'21</a>)</span></b><br>-->
-        <!--            </p>-->
-        <!--            <hr>-->
-        <!--            <br>-->
-        <!--            <b><span style="color:teal">Kim Guldstrand Larsen, Aalborg University</span><br><br><span-->
-        <!--                    style="color:darkred">Title: Synthesizing Correct and Optimal Control Programs using Model Checking and Machine Learning</span><br>-->
-        <!--                <br><span style="color: lightcoral;">Abstract: Ever since Alonzo Church, Computer Science has strived for efficient methods for deriving correct by construction control programs from high level specifications. Most recently, machine learning has made a big leap in this direction:  now it is possible to learn highly optimal strategies for complex games, e.g. Go.  However, as painfully witnessed by a number of incidents involving autonomous vehicles, machine learning comes with no guarantees of safety. This talk will present UPPAAL STRATEGO &#45;&#45; the most recent branch of the UPPAAL tool suit &#45;&#45; which combine symbolic model checking techniques with reinforcement learning in order to efficiently obtain near-optimal yet guaranteed safe strategies for Hybrid Automata based Markov Decision Processes. The talk describes the underlying modelling and specification formalism, the symbolic and learning algorithms, as well as demonstrate the tool, and the ongoing challenges pursued. At this point, the applications of UPPAAL STRATEGO include control  urban water systems, traffic, energy-aware buildings and power-electronics.</span>-->
-        <!--                <br><br><span style="color:darkmagenta;">Bio: Kim Guldstrand Larsen is a Professor of Computer Science at Aalborg-->
-        <!--          University (AAU), since 1993. He received Honorary Doctorate from-->
-        <!--          Uppsala University (1999), ENS Cachan (2007), International Chair at-->
-        <!--          INRIA (2016) and Distinguished Professor at North-Eastern University,-->
-        <!--          Shenyang, China (2018). His research interests cover modeling,-->
-        <!--          verification, performance analysis of real-time and embedded systems-->
-        <!--          with applications to concurrency theory, model checking and machine-->
-        <!--          learning.<br>-->
-        <!--          -->
-        <!--          He is the prime investigator of the verification tool UPPAAL for which-->
-        <!--          he received the CAV Award in 2013. Other prized received include Danish-->
-        <!--          Citation Laureates Award, Thomson Scientific Award as the most cited-->
-        <!--          Danish Computer Scientist in the period 1990-2004 (2005), Grundfos Prize-->
-        <!--          (2016), Ridder af Dannebrog (2007). He is member of the Royal Danish-->
-        <!--          Academy of Sciences and Letters, The Danish Academy of Technical-->
-        <!--          Science, where he is Digital wiseman. Also, he is member of the Academia-->
-        <!--          Europaea. In 2015 he received the prestigious ERC Advanced Grant-->
-        <!--          (LASSO), and in 2021 he won the  Villum Investigator Grant (S4OS).  He-->
-        <!--          has been PI and director of several large centers and initiatives-->
-        <!--          including CISS (Center for Embedded Software systems, 2002-2008), MT-LAB-->
-        <!--          (Villum-Kahn Rasmussen Center of Excellence, 2009-2013), IDEA4CPS-->
-        <!--          (Danish-Chinese Research Center, 2011-2017), INFINIT National ICT-->
-        <!--          Innovation Network, 2009-2020), DiCyPS (Innovation Fund Center,-->
-        <!--          2015-2021). Finally, he is co-founder of the companies UP4ALL (2000),-->
-        <!--          ATS (2017) and VeriAal (2020).</span></b><br><br>-->
-        <!--            <hr>-->
+                 <p>
+                     <b><span style="color:teal">Manuel Serrano,  INRIA</span><br><span
+                                style="color:darkred">Title: Domain-Specific Reasoning with Satisfiability Modulo Theories <br>(<a
+                                href="https://www-sop.inria.fr/members/Manuel.Serrano/" style="color: blue;">joint with FM'21</a>)</span></b><br>
+                </p>
+                   <hr>
+                    <br>
+                   <b><span style="color:teal">Kim Guldstrand Larsen, Aalborg University</span><br><br><span
+                      style="color:darkred">Title: Of JavaScript Ahead-Of-Time Compilation Performance</span><br>
+                    <br><span style="color: lightcoral;">Abstract:JavaScript is particularly difficult to implement efficiently because
+most of its expressions have all sorts of different meanings that
+involve all sorts of different executions that are not distinguished
+by any syntactic or type annotation. The common intuition is that only
+JIT compilers can handle it efficiently because they can rely on
+heuristic-based strategies that require having the program and the
+data on hand. But static (AOT) compilers can speculate and use
+heuristics too! To demonstrate that, we propose Hopc, an AOT
+compiler for JavaScript, based on the following assumption:
+
+The most likely data structure a program will use is
+the one for which the compiler is able to produce its best code.
+
+Thus, contrary to most AOT compilers, Hopc does not rely on complex
+static analyses to optimize programs. It simply tries to generate its
+best code that it protects with guards. In this presentation, I will
+present its main optimizations and an in-depth performance analysis.</span>
+                     <br><br><span style="color:darkmagenta;">Bio:Manuel Serrano is a researcher of INRIA, the french research institute
+in computer science.
+
+During all his career, he has been committed to implementing and
+releasing open source software applications. First, he has created the
+Bigloo compiler, an optimizing compiler for the Scheme programming
+language that is still widely in use. Since a decade, he has been
+focusing on creating new programming languages for the web. He first
+started with Hop, an extension of Scheme that enabled programmers to
+implement Web applications using that functionnal programming
+language. Hop, was one of the first project to consider JavaScript has
+a target of another high level programming language. Since, about two
+years, he allocates all his research resources to designing and
+developing Hop.js, a multitier extension of JavaScript.
+
+Manuel Serrano also contributes to open-source projects. In
+particular, he has created and maintained for the years, Flyspell.el,
+the Emacs on-the-fly spell checker.</span></b><br><br>
+                   <hr>
         <!--            <br>-->
         <!--            <b><span style="color: teal;">Leslie Lamport, Microsoft</span>, <br><span style="color: darkred;">Q/A Session Title: "If you're Not Writing a Program Don't Use a Programming Language"</span><br>-->
         <!--                <br><span style="color: lightcoral;">Abstract: Leslie Lamport invites attendees of its Q/A session to watch his-->
